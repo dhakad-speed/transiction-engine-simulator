@@ -1,0 +1,17 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // All users can read accounts (simulation)
+    match /accounts/{accountId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // All users can read transactions (simulation)
+    match /transactions/{transactionId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}

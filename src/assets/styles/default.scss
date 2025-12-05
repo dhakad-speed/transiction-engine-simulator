@@ -1,0 +1,54 @@
+
+@font-face {
+  font-family: "Inter-Black";
+  src: url(../fonts/Inter-Black.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../fonts/Inter-Bold.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(../fonts/Inter-ExtraBold.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-ExtraLight;
+  src: url(../fonts/Inter-ExtraLight.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Light; src: url(../fonts/Inter-Light.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Medium;
+  src: url(../fonts/Inter-Medium.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../fonts/Inter-Regular.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(../fonts/Inter-SemiBold.woff2);
+  font-display: swap;
+}
+$fontMedium:Inter-Medium;
+$fontRegular:Inter-Regular;
+$fontSemiBold:Inter-SemiBold;
+$fontExtraBold:Inter-ExtraBold;
+$fontBold:Inter-Bold;
+$fontExtraLight:Inter-ExtraLight;
+$fontLight:Inter-Light;
